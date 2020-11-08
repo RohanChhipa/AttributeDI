@@ -5,6 +5,6 @@
         <OutputType>Library</OutputType>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <RepositoryUrl>https://github.com/RohanChhipa/AttributeDI</RepositoryUrl>
-        <Version>1.0.0</Version>
+        <VersionPrefix>1.0.1</VersionPrefix>
     </PropertyGroup>
 </Project>
