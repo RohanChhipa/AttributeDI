@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Lib
+namespace AttributeDI
 {
     [AttributeUsage(AttributeTargets.Class, Inherited = false)]
     public class InjectionComponentAttribute : Attribute

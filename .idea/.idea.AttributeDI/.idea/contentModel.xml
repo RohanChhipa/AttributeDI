@@ -6,14 +6,11 @@
     <e p="C:\Users\rohan\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
     <e p="E:\Dev\AttributeDI" t="IncludeFlat">
       <e p="AttributeDI" t="IncludeRecursive">
-        <e p="appsettings.Development.json" t="Include" />
-        <e p="appsettings.json" t="Include" />
         <e p="AttributeDI.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Controllers" t="Include">
-          <e p="WeatherForecastController.cs" t="Include" />
-        </e>
-        <e p="ITestService.cs" t="Include" />
+        <e p="InjectionComponentAttribute.cs" t="Include" />
+        <e p="InjectionExtensions.cs" t="Include" />
+        <e p="nuget.config" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
@@ -21,29 +18,36 @@
             </e>
           </e>
         </e>
+      </e>
+      <e p="AttributeDI.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TestApi" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="nuget.config" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="TestApi.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="Services" t="Include">
+          <e p="ITestService.cs" t="Include" />
+          <e p="TestService.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
-        <e p="TestService.cs" t="Include" />
+        <e p="TestApi.csproj" t="IncludeRecursive" />
         <e p="WeatherForecast.cs" t="Include" />
       </e>
-      <e p="AttributeDI.sln" t="IncludeFlat" />
-      <e p="Lib" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="InjectionComponentAttribute.cs" t="Include" />
-        <e p="InjectionExtensions.cs" t="Include" />
-        <e p="Lib.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp5.0" t="Include">
-              <e p="Lib.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-      </e>
-      <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>
 </project>

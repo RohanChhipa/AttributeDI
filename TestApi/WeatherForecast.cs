@@ -1,6 +1,6 @@
 using System;
 
-namespace AttributeDI
+namespace TestApi
 {
     public class WeatherForecast
     {
